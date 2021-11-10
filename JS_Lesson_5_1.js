@@ -6,10 +6,7 @@ function makeBuffer() {
 	}
 
 	stringBuffer.add = function(value) {
-		if (isNaN(value))
-			bufferValue += value + " ";
-		else
-			bufferValue += value;
+		bufferValue += value + ' ';
 	}
 
 	stringBuffer.print = stringBuffer; 
